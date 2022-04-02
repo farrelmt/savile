@@ -11,7 +11,7 @@ public class InventoryInput : MonoBehaviour
         {
             if (Input.GetKeyDown(toggleInventoryKeys[i]))
             {
-                inventoryGameOject.setActive(!inventoryGameOject.activeSelf);
+                inventoryGameOject.SetActive(!inventoryGameOject.activeSelf);
                 break;
             }
         }    
